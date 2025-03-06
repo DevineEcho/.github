@@ -2,7 +2,7 @@
 ***
 **DevineEcho**는 React + Pixi.js + Spring Boot + MySQL을 활용한 Vampire Survivor 스타일의 2D 웹 게임 프로젝트입니다.
 ***
-
+&nbsp;
 #  🎮 개발 동기
 AnimalWar라는 게임의 5인 팀프로젝트를 진행하며 협업을 경험하였지만,
 1인 프로젝트를 통해 게임 개발의 전체적인 과정을 직접 설계하고 구현하는 경험을 가지고 싶었습니다. 
@@ -10,8 +10,9 @@ AnimalWar라는 게임의 5인 팀프로젝트를 진행하며 협업을 경험�
 실무에서 사용되는 기술들로 프로젝트를 완성하는 것이 목표였습니다. 
 단순한 게임 플레이뿐만 아니라, 인벤토리 및 상점 시스템, 스킬 시스템 등으로 백엔드 아키텍쳐를 설계하며 실무 감각을 키우고 싶었습니다.
 
+&nbsp;
 ***
-
+&nbsp;
 #  🏹 프로젝트 개요
 
 - **장르:** 액션 로그라이크 (Vampire Survivors 스타일)  
@@ -38,19 +39,17 @@ AnimalWar라는 게임의 5인 팀프로젝트를 진행하며 협업을 경험�
     - 클리어 보상으로 획득한 재화를 사용해 **새로운 스킬**을 구매 가능  
     - **스킨 시스템**을 통해 캐릭터 외형 및 스킬 이펙트 변경 가능  
 
-
+&nbsp;
 ***
-
-
+&nbsp;
 # 🎥 게임영상
 [![Gameplay Video](https://img.youtube.com/vi/비디오ID/0.jpg)](https://www.youtube.com/watch?v=비디오ID)
 준비중. 업데이트 예정
 
-
+&nbsp;
 ***
-
+&nbsp;
 # 🛠️ 기술 스택
-
 
 ### **Frontend**
 ![Java Script](https://img.shields.io/badge/Java%20Script-F7DF1E?style=flat&logo=javascript&logoColor=black) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=React&logoColor=white) ![React Router](https://img.shields.io/badge/React%20Router-CA4245?style=flat&logo=reactrouter&logoColor=white)
@@ -64,18 +63,17 @@ AnimalWar라는 게임의 5인 팀프로젝트를 진행하며 협업을 경험�
 ### **DevOps & Tools**
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white) ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat&logo=intellij-idea&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-394EFF?style=flat) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=black)
 
-
+&nbsp;
 ***
 
-
+&nbsp;
 # 📂 레포지터리
 - [Frontend (React + Pixi.js)](https://github.com/DevineEcho/devineecho_front)
 - [Backend (Spring Boot + MySQL)](https://github.com/DevineEcho/devineecho_backend)
-
+&nbsp;
  
 ***
-
-
+&nbsp;
 # **⚔️ 주요 기능**
 
 
@@ -83,7 +81,6 @@ AnimalWar라는 게임의 5인 팀프로젝트를 진행하며 협업을 경험�
 - **MySQL DB**: 플레이어, 아이템, 스킬 데이터를 저장하고 관리  
 - **Spring Boot & JPA**: 엔티티 설계 및 DB 연동, 데이터 일관성 유지  
 - **Gradle**: 의존성 관리 및 프로젝트 빌드  
-
 
 #### **2️⃣ 사용자 관리 및 인증**
 - **회원가입**: Spring Security를 이용한 비밀번호 암호화 (Bcrypt)  
@@ -93,7 +90,6 @@ AnimalWar라는 게임의 5인 팀프로젝트를 진행하며 협업을 경험�
   - Stateless 서버 구조 구현  
 - **Kakao OAuth API**: 카카오 로그인 기능을 통한 OAuth 인증 구현  
 
-
 #### **3️⃣ 게임 데이터 관리 및 저장**
 - **스테이지 데이터 저장**  
   - 스테이지 클리어 시 레벨, 경험치, 체력, 스킬 레벨 등을 DB에 저장  
@@ -102,13 +98,11 @@ AnimalWar라는 게임의 5인 팀프로젝트를 진행하며 협업을 경험�
   - 보유한 아이템 및 스킬을 필터링하여 인벤토리에 표시  
   - 장착 및 해제 시 DB에 반영 (현재 장착 가능한 스킬은 3개, 아이템 착용으로 인한 스탯 변동 기능은 미구현)  
 
-
 #### **4️⃣ 게임 내 경제 시스템**
 - **상점 시스템**  
   - 골드 또는 다이아몬드로 아이템 구매 가능  
   - 구매 시 DB에 반영하여 보유 재화 차감
   - 상점 UI에서 보유 중인 아이템 표시  
-
 
 #### **5️⃣ 전투 시스템**
 - **스킬 업그레이드 시스템**  
@@ -129,10 +123,9 @@ AnimalWar라는 게임의 5인 팀프로젝트를 진행하며 협업을 경험�
   - 각 스테이지는 120초 후 자동 클리어
   - 스테이지가 높아질수록 적의 능력치 및 스폰 속도 증가
 
-
+&nbsp;
 ***
-
-
+&nbsp;
 # **🔨 추가 개발 계획**
 
 
@@ -154,10 +147,9 @@ AnimalWar라는 게임의 5인 팀프로젝트를 진행하며 협업을 경험�
 
 
 ***
-
+&nbsp;
 
 # 🤔 개발 후기
-
 
 ### 🥇 WHY?
 처음 이 게임을 기획하고 개발하려고 했을 때 가장 먼저 고민했던 것은 "어떤 기술 스택을 사용할 것인가?" 였다. 
@@ -180,6 +172,7 @@ AnimalWar라는 게임의 5인 팀프로젝트를 진행하며 협업을 경험�
 
 프론트엔드에서도 UI 문제를 해결해야 했다. 상점 UI가 로드되지 않는 문제가 발생했는데, 다른 js와의 충돌 때문이었다. Pixi.js 컨테이너가 활성화된 상태에서 상점 UI가 렌더링되면서, 게임 화면이 덮어씌워지는 문제가 발생한 것이다. 이를 해결하기 위해, 상점에 진입하면 Pixi 컨테이너를 display: none; 처리하고, 상점에서 나가면 다시 활성화하는 방식으로 UI를 개선했다. 또한, 아이템 데이터가 로드되기 전에 빈 화면이 표시되는 문제도 있었기 때문에, useEffect()를 활용해 로딩 상태를 추가하고, 아이템 데이터가 준비되었을 때만 UI를 렌더링하도록 수정했다.
 
-
+***
+&nbsp;
 ## 📬 문의
 - Contact: junejjk@gmail.com
