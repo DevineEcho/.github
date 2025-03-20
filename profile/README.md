@@ -44,7 +44,7 @@ AnimalWar라는 게임의 5인 팀프로젝트를 진행하며 협업을 경험�
 &nbsp;
 # 🎥 게임영상
 [![게임 영상](https://img.youtube.com/vi/0ZbwEQ1cuoI/0.jpg)](https://www.youtube.com/watch?v=0ZbwEQ1cuoI)
-준비중. 업데이트 예정
+
 
 &nbsp;
 ***
